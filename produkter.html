@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produkter - Beardyman</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="top-nav-bar">
+    <div class="search-box">
+        <i class="fa fa-bars" id="menu-btn" onclick="openmenu()"></i>
+        <i class="fa fa-times" id="close-btn" onclick="closemenu()"></i>
+        <img class="logo" src="images/logo-ny.jpg">
+        <input type="text" class="form-control">
+        <span class="input-group-text"><i class="fa fa-search"></i></span>
+    </div>  
+        <div class="menu-bar">
+            <ul>
+                <li><a href="#"><i class="fa fa-shopping-basket" title="Varukorg"></i>
+                </a></li>
+            <li><a href="#"><i class="fa fa-user-circle" title="Mitt konto"></i>
+                </a></li>
+            <li><a href="#"><i class="fa fa-heart" title="Favoriter"></i>
+                </a></li>
+            </ul>
+        </div>
+  </div>
+  <section class="header">
+     <div class="menu-navigation" id="menu-navigation" >
+       <ul>
+           <li><a href="hem.html">Hem</a></li>
+           <li><a href="produkter.html">Produkter</a></li>
+           <li><a href="inspiration.html">Inspiration</a></li>
+           <li><a href="kundtjänst.html">Kundtjänst</a></li>
+           <li><a href="om-oss.html">Om Oss</a></li>
+       </ul>  
+     </div>
+  </section>
+  <section class="website-features">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 feature-box">
+                <img src="images/garanti.jpg">
+                <div class="feature-text">
+                    <p><b>100% Nöjd kundgaranti</b></p>
+                </div>
+            </div>
+            <div class="col-md-3 feature-box">
+                <img src="images/fri-frakt.jpg">
+                <div class="feature-text">
+                    <p><b>Fri frakt</b></p>
+                </div>
+            </div>
+            <div class="col-md-3 feature-box">
+                <img src="images/leverans.jpg">
+                <div class="feature-text">
+                    <p><b>Leverans 2-3 dagar</b></p>
+                </div>
+            </div>
+            <div class="col-md-3 feature-box">
+                <img src="images/retur.jpg">
+                <div class="feature-text">
+                    <p><b>Retur 29kr</b></p>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+</section>
+
+<div class="categori-description">
+   <div class="container">
+       <h3>Skäggolja</h3>
+       <p>En skäggolja har flera funktioner i ett: den ger fukt och näring till både skägget och huden under (så kallad skäggbotten). Den motverkar irritation, klåda och flagnande hud i skäggbotten, något som är ett vanligt problem. Skägget får extra glans och använder du skäggfärg hjälper skäggoljan även till med att intensifiera färgen. Dessutom ger skäggoljan en fräsch doft.<br>
+        <br>
+        Skäggoljor består vanligtvis av essentiella oljor som är fullspäckade med vitaminer och näring. Några droppar räcker vid daglig användning (lite beroende på längd på skägget) eller en pipett vid användning ett par gånger i veckan. Fördela skäggoljan mellan handflatorna och arbeta in den ordentligt i skägget och skäggbotten.</p>
+   </div>
+</div>
+
+<section class="categori-product">
+    <div class="container">
+        <div class="title-box">
+           <h2>Produkter:</h2> 
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="product-top">
+                   <a href="singel-produkt.html"><img src="images/olja-2.jpg"></a> 
+                   <div class="overlay-right">
+                    <button type="button" class="btn btn-secondary" title="Titta på produkt">
+                         <i class="fa fa-eye"></i>
+                     </button></a>
+                     <button type="button" class="btn btn-secondary" title="Lägg till i önskelista">
+                        <i class="fa fa-heart-o"></i>
+                    </button>
+                    <button type="button" class="btn btn-secondary" title="Lägg i varukorg">
+                        <i class="fa fa-shopping-cart"></i>
+                    </button>
+                   </div>
+                </div>
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <h3>Premium skäggolja</h3>
+                    <h5>149.00kr</h5>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="product-top">
+                    <a href="singel-produkt.html"><img src="images/olja.jpg"></a>
+                   <div class="overlay-right">
+                     <button type="button" class="btn btn-secondary" title="Titta på produkt">
+                         <i class="fa fa-eye"></i>
+                     </button>
+                     <button type="button" class="btn btn-secondary" title="Lägg till i önskelista">
+                        <i class="fa fa-heart-o"></i>
+                    </button>
+                    <button type="button" class="btn btn-secondary" title="Lägg i varukorg">
+                        <i class="fa fa-shopping-cart"></i>
+                    </button>
+                   </div>
+                </div>
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <h3>Premium skäggolja</h3>
+                    <h5>199.00kr</h5>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="product-top">
+                    <a href="singel-produkt.html"><img src="images/skaggolja.jpg"></a>
+                   <div class="overlay-right">
+                     <button type="button" class="btn btn-secondary" title="Titta på produkt">
+                         <i class="fa fa-eye"></i>
+                     </button>
+                     <button type="button" class="btn btn-secondary" title="Lägg till i önskelista">
+                        <i class="fa fa-heart-o"></i>
+                    </button>
+                    <button type="button" class="btn btn-secondary" title="Lägg i varukorg">
+                        <i class="fa fa-shopping-cart"></i>
+                    </button>
+                   </div>
+                </div>
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <h3>Premium skäggolja</h3>
+                    <h5>249.00kr</h5>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-top">
+                    <a href="singel-produkt.html"><img src="images/olja-2.jpg"></a>
+                   <div class="overlay-right">
+                     <button type="button" class="btn btn-secondary" title="Titta på produkt">
+                         <i class="fa fa-eye"></i>
+                     </button>
+                     <button type="button" class="btn btn-secondary" title="Lägg till i önskelista">
+                        <i class="fa fa-heart-o"></i>
+                    </button>
+                    <button type="button" class="btn btn-secondary" title="Lägg i varukorg">
+                        <i class="fa fa-shopping-cart"></i>
+                    </button>
+                   </div>
+                </div>
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <h3>Premium skäggolja</h3>
+                    <h5>279.00kr</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="categori-description">
+    <div class="container">
+        <h3>Skäggvård:</h3>
+        <p>Skäggvårdande produkter förhindrar skägget från att torka ut, och ger ett hälsosamt skägg med lyster. Skäggschampon är speciellt utvecklade för skäggets grövre strån. De rengör ordentligt och lämnar skägget återfuktat. Inpackningar och balsam för skägg ger intensiv fukt och näring. Speciellt bra för lite längre skägg. Låt verka några minuter för bästa effekt.</p>
+    </div>
+ </div>
+ 
+ <section class="categori-product">
+     <div class="container">
+         <div class="title-box">
+            <h2>Produkter:</h2> 
+         </div>
+         <div class="row">
+             <div class="col-md-3">
+                 <div class="product-top">
+                    <a href="singel-produkt.html"><img src="images/olja-2.jpg"></a> 
+                    <div class="overlay-right">
+                     <button type="button" class="btn btn-secondary" title="Titta på produkt">
+                          <i class="fa fa-eye"></i>
+                      </button></a>
+                      <button type="button" class="btn btn-secondary" title="Lägg till i önskelista">
+                         <i class="fa fa-heart-o"></i>
+                     </button>
+                     <button type="button" class="btn btn-secondary" title="Lägg i varukorg">
+                         <i class="fa fa-shopping-cart"></i>
+                     </button>
+                    </div>
+                 </div>
+                 <div class="product-bottom text-center">
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star-half-o"></i>
+                     <h3>Premium skäggolja</h3>
+                     <h5>149.00kr</h5>
+                 </div>
+             </div>
+ 
+             <div class="col-md-3">
+                 <div class="product-top">
+                     <a href="singel-produkt.html"><img src="images/olja.jpg"></a>
+                    <div class="overlay-right">
+                      <button type="button" class="btn btn-secondary" title="Titta på produkt">
+                          <i class="fa fa-eye"></i>
+                      </button>
+                      <button type="button" class="btn btn-secondary" title="Lägg till i önskelista">
+                         <i class="fa fa-heart-o"></i>
+                     </button>
+                     <button type="button" class="btn btn-secondary" title="Lägg i varukorg">
+                         <i class="fa fa-shopping-cart"></i>
+                     </button>
+                    </div>
+                 </div>
+                 <div class="product-bottom text-center">
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star-half-o"></i>
+                     <h3>Premium skäggolja</h3>
+                     <h5>199.00kr</h5>
+                 </div>
+             </div>
+ 
+             <div class="col-md-3">
+                 <div class="product-top">
+                     <a href="singel-produkt.html"><img src="images/skaggolja.jpg"></a>
+                    <div class="overlay-right">
+                      <button type="button" class="btn btn-secondary" title="Titta på produkt">
+                          <i class="fa fa-eye"></i>
+                      </button>
+                      <button type="button" class="btn btn-secondary" title="Lägg till i önskelista">
+                         <i class="fa fa-heart-o"></i>
+                     </button>
+                     <button type="button" class="btn btn-secondary" title="Lägg i varukorg">
+                         <i class="fa fa-shopping-cart"></i>
+                     </button>
+                    </div>
+                 </div>
+                 <div class="product-bottom text-center">
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <h3>Premium skäggolja</h3>
+                     <h5>249.00kr</h5>
+                 </div>
+             </div>
+             <div class="col-md-3">
+                 <div class="product-top">
+                     <a href="singel-produkt.html"><img src="images/olja-2.jpg"></a>
+                    <div class="overlay-right">
+                      <button type="button" class="btn btn-secondary" title="Titta på produkt">
+                          <i class="fa fa-eye"></i>
+                      </button>
+                      <button type="button" class="btn btn-secondary" title="Lägg till i önskelista">
+                         <i class="fa fa-heart-o"></i>
+                     </button>
+                     <button type="button" class="btn btn-secondary" title="Lägg i varukorg">
+                         <i class="fa fa-shopping-cart"></i>
+                     </button>
+                    </div>
+                 </div>
+                 <div class="product-bottom text-center">
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star-o"></i>
+                     <h3>Premium skäggolja</h3>
+                     <h5>279.00kr</h5>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+
+ <div class="categori-description">
+    <div class="container">
+        <h3>Beard Balm:</h3>
+        <p>Beard Balm (skäggvax) är en vårdande stylingprodukt för skägget. Den hjälper dig att forma skägget och få ordning på ostyriga skäggstrån. Samtidigt har den en vårdande funktion med vitaminrika essentiella oljor i innehållet, så att skägget får en hälsosam lyster. Fördela skäggvaxet mellan handflatorna och mjuka upp det genom att stryka händerna mot varandra. Fördela ut i hela skägget och arbeta in produkten ordentligt.</p>
+    </div>
+ </div>
+ 
+ <section class="categori-product">
+     <div class="container">
+         <div class="title-box">
+            <h2>Produkter:</h2> 
+         </div>
+         <div class="row">
+             <div class="col-md-3">
+                 <div class="product-top">
+                    <a href="singel-produkt.html"><img src="images/watermelon.wax.jpg"></a> 
+                    <div class="overlay-right">
+                     <button type="button" class="btn btn-secondary" title="Titta på produkt">
+                          <i class="fa fa-eye"></i>
+                      </button></a>
+                      <button type="button" class="btn btn-secondary" title="Lägg till i önskelista">
+                         <i class="fa fa-heart-o"></i>
+                     </button>
+                     <button type="button" class="btn btn-secondary" title="Lägg i varukorg">
+                         <i class="fa fa-shopping-cart"></i>
+                     </button>
+                    </div>
+                 </div>
+                 <div class="product-bottom text-center">
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star-half-o"></i>
+                     <h3>Premium skäggolja</h3>
+                     <h5>149.00kr</h5>
+                 </div>
+             </div>
+ 
+             <div class="col-md-3">
+                 <div class="product-top">
+                     <a href="singel-produkt.html"><img src="images/beard-balm-4.jpg"></a>
+                    <div class="overlay-right">
+                      <button type="button" class="btn btn-secondary" title="Titta på produkt">
+                          <i class="fa fa-eye"></i>
+                      </button>
+                      <button type="button" class="btn btn-secondary" title="Lägg till i önskelista">
+                         <i class="fa fa-heart-o"></i>
+                     </button>
+                     <button type="button" class="btn btn-secondary" title="Lägg i varukorg">
+                         <i class="fa fa-shopping-cart"></i>
+                     </button>
+                    </div>
+                 </div>
+                 <div class="product-bottom text-center">
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star-half-o"></i>
+                     <h3>Premium skäggolja</h3>
+                     <h5>199.00kr</h5>
+                 </div>
+             </div>
+ 
+             <div class="col-md-3">
+                 <div class="product-top">
+                     <a href="singel-produkt.html"><img src="images/beard-balm-3.jpg"></a>
+                    <div class="overlay-right">
+                      <button type="button" class="btn btn-secondary" title="Titta på produkt">
+                          <i class="fa fa-eye"></i>
+                      </button>
+                      <button type="button" class="btn btn-secondary" title="Lägg till i önskelista">
+                         <i class="fa fa-heart-o"></i>
+                     </button>
+                     <button type="button" class="btn btn-secondary" title="Lägg i varukorg">
+                         <i class="fa fa-shopping-cart"></i>
+                     </button>
+                    </div>
+                 </div>
+                 <div class="product-bottom text-center">
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <h3>Premium skäggolja</h3>
+                     <h5>249.00kr</h5>
+                 </div>
+             </div>
+             <div class="col-md-3">
+                 <div class="product-top">
+                     <a href="singel-produkt.html"><img src="images/beard-balm-2.jpg"></a>
+                    <div class="overlay-right">
+                      <button type="button" class="btn btn-secondary" title="Titta på produkt">
+                          <i class="fa fa-eye"></i>
+                      </button>
+                      <button type="button" class="btn btn-secondary" title="Lägg till i önskelista">
+                         <i class="fa fa-heart-o"></i>
+                     </button>
+                     <button type="button" class="btn btn-secondary" title="Lägg i varukorg">
+                         <i class="fa fa-shopping-cart"></i>
+                     </button>
+                    </div>
+                 </div>
+                 <div class="product-bottom text-center">
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star-o"></i>
+                     <h3>Premium skäggolja</h3>
+                     <h5>279.00kr</h5>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+
+<section class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h1>Våra villkår:</h1>
+                <ul>
+                   <li><a href="#">Privacy Policy</a></li>
+                   <li><a href="#">Användar villkår</a></li>
+                   <li><a href="#">Retur Policy</a></li>
+                   <li><a href="#">Garanti Villkår</a></li>
+                   <li><a href="#">Samarbetsvillkår</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+               <h1>Snabblänkar:</h1>
+               <ul>
+                  <li><a href="#">Kundtjänst</a></li>
+                  <li><a href="#">Om Oss</a></li>
+                  <li><a href="#">Logga in</a></li>
+                  <li><a href="#">Prenumerera</a></li>
+                  <li><a href="#">Affiliates</a></li>
+                  <li><a href="#">För Bloggare</a></li>
+               </ul>
+           </div>
+           <div class="col-md-3">
+               <h1>Följ oss på:</h1>
+               <ul>
+                  <li><a href="www.facebook.se"><i class="fa fa-facebook-official"></i>Facebook</a></li>
+                  <li><a href="www.instagram.se"><i class="fa fa-instagram"></i>Instagram</a></li>
+                  <li><a href="www.youtube.com"><i class="fa fa-youtube-play"></i>Youtube</a></li>
+                  <li><a href="wwww.twitter.com"><i class="fa fa-twitter"></i>Twitter</a></li>
+                  <li><a href="wwww.inkdin.com"><i class="fa fa-linkedin"></i>Linkedin</a></li>
+               </ul>
+           </div>
+           <div class="col-md-3 quick-contact">
+               <h1>Snabbkontakt:</h1>
+               <form>
+                   <label for="email">Lämna din E-post ...</label>
+                   <input type="email" id="email" placeholder="Din E-post">
+                   ... så hör vi av oss<br>
+                   <input class="button" type="submit" value="Skicka">
+               </form>
+           </div>
+        </div>
+        <hr>
+        <div class="copyright">Copyright &copy; 2020 Beardyman AB</div> 
+    </div>
+</section>
+
+<script>
+    function openmenu() 
+    {
+       document.getElementById ("menu-navigation").style.display="block";
+       document.getElementById ("menu-btn").style.display="none";
+       document.getElementById ("close-btn").style.display="block";
+    }
+    function closemenu() 
+    {
+       document.getElementById ("menu-navigation").style.display="none";
+       document.getElementById ("menu-btn").style.display="block";
+       document.getElementById ("close-btn").style.display="none";
+    }
+ </script>
+</body>
